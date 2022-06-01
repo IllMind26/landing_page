@@ -12,12 +12,22 @@ body {
     flex: 1;
 }
 
+.heroContainer {
+    background-color: #1f2937;
+}
+
 .header {
     background-color: #1f2937;
     font-weight: 600;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+}
+
+.placeholder {
+    border: 1px;
+    width: 300px;
+    height: 200px;
 }
 
 .headerLogoText {
@@ -56,7 +66,40 @@ a {
 
 button {
     color: #f9faf8;
+    border: 1px solid #f9faf8;
+    border-color: #f9faf8;
     border-radius: 3px;
     padding: 8 16px;
     background-color: #3882f6;
+}
+
+.action {
+    border: 3px;
+    border-radius: 2px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 1000px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    padding: 32px 64px;
+}
+
+.thor {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px;
+    font-weight: 700;
 }
