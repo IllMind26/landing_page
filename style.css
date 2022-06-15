@@ -251,6 +251,7 @@ img {
 }
 
 button {
+    border: 3px solid #3882f6;
     background: #3882f6;
     border-radius: 3px;
     padding: 6px 24px;
